@@ -1,0 +1,5 @@
+{
+  "require": {
+	"bluerhinos/phpmqtt": "dev-master"
+  }
+}

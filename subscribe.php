@@ -1,5 +1,5 @@
 <?php
-require('vendor/autoload.php');
+require 'phpMQTT.php';
 
 $url = parse_url(getenv('CLOUDMQTT_URL'));
 $topic = substr($url['path'], 1);
